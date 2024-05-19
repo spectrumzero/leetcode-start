@@ -1,2 +1,2 @@
 # leetcode-start
-Do some practice.
+🚕Do some practice.
