@@ -20,6 +20,8 @@ char *uppertolower(char *s) {
       s[i] |= 32;
       // 也可以直接用到c标准库中的函数
       // s[i] = tolower(s[i]);
+      // 也可以直接以十进制的形式加减
+      // s[i] += 32;
     }
   }
   return s;
@@ -33,6 +35,8 @@ char *lowertoupper(char *s) {
       s[i] ^= 32;
       // 也可以直接用到c标准库中的函数
       // s[i] = toupper(s[i]);
+      // 也可以直接以十进制的形式加减
+      // s[i] -= 32;
     }
   }
   return s;
