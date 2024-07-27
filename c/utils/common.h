@@ -1,6 +1,3 @@
-#include <ctype.h>
-#include <math.h>
-#include <stdbool.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "../utils/common.c"
+/*打印数组*/
+void printarray(int *res, int ressize);
